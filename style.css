@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Sofia+Sans+Condensed:wght@300;400;500&display=swap');
+*{
+    box-sizing: border-box;
+}
+html,body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+body{
+    font-family: 'Sofia Sans Condensed', sans-serif;
+}
+.hero-image{
+    background: linear-gradient(rgba(2, 10, 32, 0.7),rgb(2, 10, 32,0.7)),url(img/arkaplan.jpg);
+    height: 320px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: top;
+    position: relative;
+}
+.navbar-brand img{
+    width: 236px;
+    margin-left: 36px;
+}
+
+.nav-item{
+    font-size: 16px;
+    letter-spacing: 1px;
+    font-weight: 500;
+    margin-inline: 12px;
+}
+.hero-text{
+    margin: 0;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+    font-weight: 500;
+    letter-spacing: 6px;
+    font-size: 24px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.liste li{
+    list-style-type: none;
+    margin-bottom: 15px;
+}
+.liste li a{
+    text-decoration: none;
+    color: #A1A1A1;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+.liste li a:hover{
+    color: #990033;
+}
+
+/* .liste .secilen a{
+    color: #990033 ;
+} */
+.secilen a{
+    color: #990033 !important;
+}
+.liste{
+    margin-bottom: 40px;
+    padding: 0;
+}
+.cizgi{
+    width: 65%;
+    border: 1px solid black;
+}
+
+.card{
+    border: 0;
+    text-align: center;
+    color: #020a20; 
+    background: #020a20;
+    border-radius: 0; 
+}
+.card img{
+    opacity: 0.8;
+}
+.card-body{
+    background-color: white;
+}
+.card h5{
+    font-size: 18px;
+    letter-spacing: 2px;
+    font-weight: 600;
+    margin: 5px 0 20px 0;
+}
+.card p{
+    font-size: 16px;
+    letter-spacing: 0.02em;
+    font-family: 'Times New Roman', Times, serif;
+}
+.esb{
+    margin-bottom: 40px;
+}
